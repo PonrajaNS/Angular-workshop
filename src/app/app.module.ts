@@ -6,8 +6,11 @@ import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
 import { AboutComponent } from './about/about.component';
 
-// import { MatListModule, MatCardModule, MatSlideToggleModule, MatDialogModule, MatIconModule, MatInputModule, MatSnackBarModule, MatTabsModule,            MatButtonModule,MatLineModule, MatToolbarModule } from '@angular/material'; 
-// import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+// 
+import { MatListModule, MatCardModule, MatSlideToggleModule, MatDialogModule, MatIconModule, 
+  MatInputModule, MatSnackBarModule, MatTabsModule, MatButtonModule,MatLineModule, MatToolbarModule } 
+  from '@angular/material'; 
+//import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
